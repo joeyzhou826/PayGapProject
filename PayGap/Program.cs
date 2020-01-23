@@ -217,7 +217,7 @@ namespace PayGap
                     }
                 }
             }
-            catch (Exception e)
+            catch
             {
                 throw new Exception("Invalid min/max value");
             }
@@ -241,7 +241,7 @@ namespace PayGap
                     }
                 }
             }
-            catch (Exception n)
+            catch
             {
                 throw new Exception("Invalid percentage value");
             }
